@@ -2,11 +2,11 @@ package futbol;
 
 public class Jugador extends Futbolista {
     public short golesMarcados;
-    private  byte dorsal;
+    public  byte dorsal;
 
     public Jugador(){
         super();
-        this._golesMarcados = 289;
+        this.golesMarcados = 289;
         this.dorsal = 7;
     }
 
